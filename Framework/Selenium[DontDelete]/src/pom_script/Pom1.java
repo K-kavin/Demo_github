@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Pom1 {
 	//declaration
-	@FindBy(id="email")
+ 	@FindBy(id="email")
 	private WebElement untBox;
 	@FindBy(name="pass")
 	private WebElement pwdtBox;
@@ -31,5 +31,8 @@ public class Pom1 {
 	{
 		loginBtn.click();
 	}
-
+	public void ForgetPWD()
+	{
+		
+	}
 }
