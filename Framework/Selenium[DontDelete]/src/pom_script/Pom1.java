@@ -31,5 +31,8 @@ public class Pom1 {
 	{
 		loginBtn.click();
 	}
-
+	public void ForgetPWD()
+	{
+		
+	}
 }
