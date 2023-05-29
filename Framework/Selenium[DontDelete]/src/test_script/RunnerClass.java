@@ -26,6 +26,8 @@ public class RunnerClass {
 		Robot r=new Robot();
 		r.keyPress(KeyEvent.VK_T);
 		r.keyRelease(KeyEvent.VK_T);
+		//if we upate this script to TestNG we 
+		//can excute multiple script @ 1 shot
 	}
 
 }
